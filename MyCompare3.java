@@ -18,6 +18,7 @@ public class MyCompare3 {
 			public int compare(Animal a, Animal b){
 			    return a.getLegs() - b.getLegs();
 			}
+			
 		});
 		System.out.println(dogs);
 	}
